@@ -1,0 +1,130 @@
+#ficha, #carrusel, #extra {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+#ficha .article {
+	margin-bottom: 20px;
+    _height: 100%;
+}
+
+
+#ficha img {
+    float: left;
+    margin-right: 10px;
+}
+
+#ficha h2 {
+    color: teal;
+	font-size: 30px;
+}
+
+.precio {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    text-align: right;
+    width: 80%; 
+    background-color: #ddd;
+    padding:10px;
+    margin-left:10px;
+    border: 1px solid #c4c4c4;
+}
+
+table {
+	width: 240px;
+	margin-bottom: 0px;
+	color: #5b5b5b;
+}
+
+tr.odd {
+	background-color: #ddd;	
+}
+
+.titulo {
+	font-weight: bold;
+}
+
+.eco {
+	color: green;
+}
+
+td {
+	padding: 0 10px;
+}
+
+tr {
+	height: 20px;
+}
+
+#carrusel {
+	position: relative;
+}
+
+#carrusel ul {
+	margin-bottom: 0;
+}
+
+#carrusel ul li {
+    float: left;
+    margin: 0 3px;
+    width: 128px;
+}
+
+#select-fotos {
+	position: relative;
+	margin: 0 auto;
+	height: 70px;
+	width: 552px;
+}
+
+#select-fotos>img, #select-fotos ul {
+	float: left;
+}
+
+#select-fotos>img {
+	padding-top: 29px;
+}
+
+
+#equipamiento {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+#equipamiento a.boton {
+	 color: #5B5B5B;
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 0 #FFFFFF;
+	font: normal 25px 'BebasNeueRegular';
+	width: 270px;
+}
+
+#equipamiento p {
+	margin-bottom: 10px;
+}
+
+.boton.extras {
+	position: relative;
+	float: right;
+}
+
+#extra {
+    overflow: hidden;
+    padding: 0px;
+}
+
+#caracteristicas,
+#observaciones {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#caracteristicas {
+    margin-right: 8px;
+}

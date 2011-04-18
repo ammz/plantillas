@@ -1,0 +1,306 @@
+/*---------------------------------------------------------------------------------*/
+/*  FONT-FACE                                                                      */
+/*---------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../type/bebas/bebasneue-webfont.eot');
+    src: url('../type/bebas/bebasneue-webfont.eot?iefix') format('eot'),
+    url('../type/bebas/bebasneue-webfont.woff') format('woff'),
+    url('../type/bebas/bebasneue-webfont.ttf') format('truetype'),
+    url('../type/bebas/bebasneue-webfont.svg#webfont6DRw3Kbi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonRoman';
+    src: url('../type/crimson/Crimson-Roman-webfont.eot');
+    src: url('../type/crimson/Crimson-Roman-webfont.eot?iefix') format('eot'),
+    url('../type/crimson/Crimson-Roman-webfont.woff') format('woff'),
+    url('../type/crimson/Crimson-Roman-webfont.ttf') format('truetype'),
+    url('../type/crimson/Crimson-Roman-webfont.svg#webfontPY06YkYz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CrimsonItalic';
+    src: url('../type/crimson/Crimson-Italic-webfont.eot');
+    src: url('../type/crimson/Crimson-Italic-webfont.eot?iefix') format('eot'),
+    url('../type/crimson/Crimson-Italic-webfont.woff') format('woff'),
+    url('../type/crimson/Crimson-Italic-webfont.ttf') format('truetype'),
+    url('../type/crimson/Crimson-Italic-webfont.svg#webfont1ChBecxb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color: #F1F1F1;
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    line-height: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #f6a106;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #5B5B5B;
+    font-family: 'BebasNeueRegular';
+    font-weight:normal;
+    letter-spacing: 0.3px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+h3, h4 {
+    margin-bottom: 20px;
+    line-height:22px;
+}
+
+ul {
+    list-style: none;
+}
+
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.header {
+    position: absolute;
+    background-color: #F1F1F1;
+    padding: 15px 0 10px 0px;
+    border-bottom: 1px solid #CCC;
+    z-index: 1;
+    height: 90px;
+
+    *position: absolute;
+    *left: 0px;
+
+    _position: relative;
+}
+
+#slogan {
+    font-family: 'CrimsonItalic';
+    font-weight: normal;
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0px 1px 0px white;
+    letter-spacing: 0.3px;
+    height: 90px;
+    position: relative;
+}
+
+#slogan p {
+    padding: 0px 20px;
+    margin: 0;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width: 590px;
+}
+
+#slogan img {
+    float: left;
+    display: none;
+}
+
+
+#contacto {
+    height: 80px;
+    position: relative;
+	text-align: right;
+	font-weight: bold;
+	padding-top: 10px;
+    color: #5B5B5B;
+    float: right;
+}
+
+#contacto p.direccion {
+	float: right;
+	display: inline;
+	margin-bottom: 5px;
+	width: 275px;
+}
+
+.telefono {
+    background: transparent url(../img/contact.png) no-repeat 3px 5px;
+	padding-left: 24px;
+	font: 24px 'BebasNeueRegular';
+	margin-bottom: 0;
+	float: right;
+}
+
+#laterales {
+    _position: static;
+}
+
+.aside {
+    position: absolute;
+    top: 140px;
+    
+    _margin-top: 10px;
+}
+
+
+.aside.left {
+    left: 0px;
+}
+
+.aside.right {
+    right: 0px;
+}
+
+.nav {
+    font-family: 'BebasNeueRegular';
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    position: relative;
+    text-align: right;
+}
+
+.nav ul li {
+    margin-left: 0;
+    position: relative;
+}
+
+.nav ul li a {
+    padding: 5px 0;
+    display: block;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.publi {
+    margin-top: 80px;
+}
+
+.publi h4 {
+    display: none;
+}
+
+.publi img {
+    border: 5px solid white;
+}
+
+#main_content {
+    margin-top: 140px;
+
+    _margin-top: 20px;
+}
+
+
+#buscador {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+#buscador h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    color: #7b7b7b;
+}
+
+#buscador label {
+    clear: both;
+    float:left;
+    height:30px;
+    line-height: 30px;
+    width:128px;
+}
+
+#buscador select {
+    display: block;
+    width: 128px;
+    float:left;
+    height: 20px;
+}
+
+#buscador input {
+    margin: 20px 0px 10px 0px;
+}
+
+a.boton  {
+	width: 130px;
+	
+	position: relative;
+	margin-top: 5px;
+	text-align: center;
+	
+	background-color: #f6a106;
+	padding: 8px 14px 9px;
+	cursor: pointer;
+
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	/*text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);*/
+	
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.boton:hover {
+	background-color: #FC9200;
+	color: white;
+}
+
+
+.footer {
+    border-top: solid 1px #CCCCCC;
+    padding-top: 10px;
+    height: 40px;
+}
+
+.footer p {
+    float: left;
+}
+
+.menu.t_redes {
+    position: absolute;
+    right: 5px;
+    bottom: 0px;
+}
+
+.menu ul {
+    float: right;
+    margin-bottom: 0px;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 7px;
+} 
+
+.t_redes ul {
+    
+}

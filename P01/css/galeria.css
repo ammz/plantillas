@@ -1,0 +1,43 @@
+#main_content {
+    min-height: 600px;
+}
+
+table {
+	width: 620px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+thead th {
+	text-align: center;
+}
+
+thead th.pref {
+	text-align: left;	
+}
+
+tbody tr:hover {
+	background: #ccc;
+}
+
+tbody tr {
+	border-bottom: 1px solid #b7b7b7;
+	height: 64px;
+}
+
+td {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+}
+
+td.pref {
+	text-align: left;
+	font-weight: bold;
+	color: #474747;
+	width: 140px;
+}
+
+.paginacion {
+	float: right;
+}

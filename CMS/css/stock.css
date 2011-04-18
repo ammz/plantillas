@@ -1,0 +1,30 @@
+.paginacion {
+	background-color: #f9f4d2;
+	position: relative;
+	bottom: -3px;
+	width: 222px;
+	padding: 8px;
+	margin-left: 553px;
+	text-align: center;
+}
+a.table-edit-link,
+a.table-delete-link {
+	padding-left: 20px;
+	margin-left: 10px;
+}
+
+a.table-edit-link {
+	background: url(../img/gear_16.png) no-repeat;
+}
+
+a.table-delete-link {
+	background: url(../img/delete_16.png) no-repeat;
+}
+
+.guardar a.boton {
+	width: 100px;
+	font-size: 18px;
+	display: block;
+	padding: 15px;
+	margin-top: 40px;
+} 
